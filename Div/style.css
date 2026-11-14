@@ -1,0 +1,60 @@
+body {
+	background-color: antiquewhite;
+}
+
+.logo {
+	float: left;
+	background-color: yellow;
+	width: 200px;
+	height: 200px;
+}
+
+.menu {
+	float: left;
+	background-color: aqua;
+	width: 800px;
+	height: 200px;
+}
+
+.banner {
+	clear: both;
+	background-color: cadetblue;
+	width: 1000px;
+	height: 400px;
+	border: solid red;
+	border-radius: 15px;
+}
+
+.sol {
+	float: left;
+	height: 400px;
+	width: 400px;
+	background-color: chocolate;
+}
+
+.sag {
+	float: left;
+	height: 400px;
+	width: 400px;
+	background-color: darkslategray;
+}
+
+.logo img {
+	width: 200px;
+	height: 200px;
+}
+
+.banner img {
+	width: 1000px;
+	height: 400px;
+	border-radius: 15px;
+}
+
+.foother {
+	background-color: crimson;
+	clear: both;
+	height: 50px;
+	width: 1000px;
+	text-align: center;
+	line-height: 50px;
+}

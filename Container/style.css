@@ -1,0 +1,24 @@
+.container {
+	margin: auto;
+	height: auto;
+}
+
+.box1 {
+	float: left;
+	background-color: aquamarine;
+	width: 400px;
+	height: auto;
+}
+
+.box2 {
+	float: left;
+	background-color: cadetblue;
+	width: 600px;
+	height: auto;
+}
+
+.box3 {
+	clear: both;
+	background-color: darkgreen;
+	height: 400px;
+}

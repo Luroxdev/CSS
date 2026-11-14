@@ -1,0 +1,145 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	font-family: Arial, sans-serif;
+}
+
+.main {
+	width: 100%;
+}
+
+.baslik {
+	background-color: #102346;
+	color: white;
+	width: 100%;
+	padding: 20px 0;
+	text-align: center;
+}
+
+.baslik h2 {
+	margin: 0;
+	line-height: 1.4;
+}
+
+.baslik p {
+	line-height: 1.4;
+}
+
+.menu {
+	background-color: #1b3159;
+	width: 100%;
+	padding: 15px 0;
+	text-align: center;
+}
+
+a {
+	text-decoration: none;
+	color: white;
+	padding: 0 8px;
+}
+
+.teknoloji {
+	background-color: #1e3a69;
+	color: white;
+	width: 100%;
+	padding: 25px 0;
+	text-align: center;
+}
+
+.teknoloji h2 {
+	margin-bottom: 5px;
+}
+
+#konular {
+	background-color: black;
+	width: 100%;
+	min-height: 500px;
+	background-position: center;
+	background-size: cover;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+	padding: 40px 20px;
+}
+
+#konular h1 {
+	font-size: 50px;
+	color: white;
+	margin-bottom: 20px;
+}
+
+#konular p {
+	color: white;
+	margin-bottom: 15px;
+}
+
+#konular button {
+	background-color: #1e3a69;
+	color: white;
+	padding: 5px;
+	border-radius: 10px;
+	width: 170px;
+	height: 40px;
+	border: none;
+	cursor: pointer;
+}
+
+.container {
+	display: flex;
+	justify-content: center;
+	align-items: stretch;
+	flex-wrap: wrap;
+	padding-bottom: 50px;
+}
+
+.konu-baslik {
+	text-align: center;
+	margin: 40px 0 30px;
+}
+
+.box {
+	margin-top: 20px;
+	margin-left: 20px;
+	width: 300px;
+	float: left;
+	background-color: #f8fafc;
+	color: #222;
+	border: 1px solid #dde3ea;
+	border-radius: 15px;
+	overflow: hidden;
+	text-align: center;
+	box-shadow: 0 2px 8px rgba(0, 0, 0, 0.5);
+}
+
+.box img {
+	width: 100%;
+	height: 200px;
+	object-fit: cover;
+	display: block;
+}
+
+.box h3 {
+	margin: 20px 0 15px;
+}
+
+.box p {
+	margin: 0;
+	padding: 0 20px 25px;
+}
+
+#foother {
+	background-color: #102346;
+	width: 100%;
+	min-height: 75px;
+	color: white;
+	display: flex;
+	text-align: center;
+	justify-content: center;
+	align-items: center;
+}

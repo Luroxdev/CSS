@@ -1,0 +1,280 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+#navbar {
+	background-color: rgb(255, 255, 255);
+	width: 1000px;
+	height: 60px;
+	display: flex;
+}
+
+#navbar img {
+	width: 53px;
+	height: 40px;
+	float: left;
+	margin-right: 5px;
+	margin-top: 10px;
+}
+
+#navbar a {
+	margin-top: 20px;
+	color: black;
+	margin-right: 20px;
+	text-decoration: none;
+}
+
+#navbar h2 {
+	margin-top: 15px;
+	color: rgb(145, 7, 173);
+	float: left;
+	margin-right: 400px;
+}
+
+#banner {
+	background-image: url(images/banner-anaokulu.png);
+	background-position: right;
+	background-repeat: no-repeat;
+	background-size: cover;
+	width: 1000px;
+	height: 500px;
+}
+
+#banner #box {
+	width: 300px;
+	height: 200px;
+	opacity: 0.9;
+	background-color: #fff;
+	margin-left: 35px;
+	margin-top: 150px;
+	border-radius: 10px;
+}
+
+#box h1 {
+	margin-left: 15px;
+	margin-bottom: 10px;
+	color: rgb(40, 40, 104);
+}
+
+#box p {
+	margin-left: 15px;
+	margin-bottom: 15px;
+	color: rgb(40, 40, 104);
+}
+
+#box button {
+	background-color: rgb(237, 118, 201);
+	margin-left: 15px;
+	width: 140px;
+	height: 30px;
+	border-radius: 10px;
+	border-color: rgb(237, 118, 201);
+}
+
+#box button a {
+	color: #fff;
+	text-decoration: none;
+}
+
+#box2 {
+	width: 500px;
+	height: 100px;
+	background-color: #fff;
+	float: left;
+}
+
+#hakkimizda {
+	margin: 0;
+	padding: 0;
+	background-color: #fff;
+	width: 1000px;
+	height: 200px;
+}
+
+#box2 h2 {
+	margin-top: 30px;
+	margin-left: 20px;
+	margin-bottom: 15px;
+	color: rgb(40, 40, 104);
+}
+
+#box2 p {
+	margin-left: 15px;
+	color: rgb(40, 40, 104);
+}
+
+#hakkimizda #onemli {
+	background-color: rgb(246, 206, 105);
+	margin-top: 20px;
+	border-color: rgb(174, 105, 15);
+	border: 3px solid orange;
+	border-radius: 15px;
+	width: 250px;
+	height: 150px;
+	float: left;
+}
+
+#onemli h3 {
+	color: rgb(6, 6, 84);
+	margin-top: 10px;
+	margin-left: 10px;
+	margin-bottom: 10px;
+}
+
+#onemli p {
+	margin-left: 10px;
+	margin-bottom: 10px;
+}
+
+.container {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-wrap: wrap;
+}
+
+#etkinlik-box {
+	margin: 20px 10px;
+	width: 220px;
+	height: 300px;
+	float: left;
+	background-color: #f8fafc;
+	color: #222;
+	border: 1px solid #dde3ea;
+	border-radius: 15px;
+	overflow: hidden;
+}
+
+#etkinlik-box img {
+	width: 100%;
+	height: 170px;
+}
+
+#etkinlik-box h3 {
+	margin-top: 12px;
+	margin-left: 12px;
+}
+
+#etkinlik-box p {
+	margin-top: 20px;
+}
+
+#etkinlikler {
+	background-color: rgb(250, 243, 255);
+	width: 1000px;
+	height: 500px;
+	align-items: center;
+	text-align: center;
+	justify-content: center;
+	padding: 45px 20px 45px 20px;
+}
+
+#etkinlikler h1 {
+	margin-bottom: 10px;
+	color: rgb(22, 5, 87);
+}
+
+#etkinlikler p {
+	margin-bottom: 10px;
+}
+
+.etkinlik-box1 {
+	box-shadow: 0 5px 0 0 rgb(242, 227, 116);
+}
+
+.etkinlik-box2 {
+	box-shadow: 0 5px 0 0 rgb(119, 186, 248);
+}
+
+.etkinlik-box3 {
+	box-shadow: 0 5px 0 0 rgb(227, 125, 193);
+}
+
+.etkinlik-box4 {
+	box-shadow: 0 5px 0 0 rgb(19, 191, 105);
+}
+
+#program {
+	clear: both;
+	width: 1000px;
+	height: 350px;
+	background-color: #fff0d5;
+}
+
+.metin {
+	width: 300px;
+	height: 260px;
+	float: left;
+}
+
+.metin h2 {
+	padding: 40px 30px 20px 30px;
+	color: rgb(11, 11, 96);
+}
+
+.metin pre {
+	text-align: justify;
+	margin-left: 30px;
+	margin-right: 60px;
+	color: rgb(11, 11, 96);
+}
+
+#card {
+	margin-left: 50px;
+	margin-top: 40px;
+	float: left;
+	width: 500px;
+	background: #fff;
+	border: 3px solid #f7d56a;
+	padding: 12px 16px;
+}
+
+#card li {
+	display: flex;
+	align-items: center;
+	gap: 30px;
+	padding: 14px 0;
+	border-bottom: 1px solid #e6e6e6;
+	font-size: 15px;
+}
+
+#card ul {
+	list-style: none;
+}
+
+#card li:last-child {
+	border-bottom: none;
+}
+
+.saat {
+	color: #e8688a;
+	font-weight: 700;
+	min-width: 50px;
+}
+
+#iletisim {
+	width: 1000px;
+	height: auto;
+	color: #fff;
+	background-color: #7457a8;
+}
+
+#iletisim h2 {
+	padding: 50px 0 15px 35px;
+	font-size: 32px;
+}
+
+.bilgiler {
+	padding: 0 0 15px 35px;
+}
+
+.foother {
+	width: 1000px;
+	height: auto;
+	background-color: #273056;
+	text-align: center;
+	color: #fff;
+	padding: 18px;
+}
