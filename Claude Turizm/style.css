@@ -1,0 +1,223 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+#head {
+	display: flex;
+	width: 1000px;
+	height: 40px;
+	background-color: #0b2e3a;
+	font-size: 16px;
+	padding-left: 40px;
+	line-height: 40px;
+	color: white;
+}
+
+nav {
+	width: 1000px;
+	height: 90px;
+	background-color: white;
+	line-height: 90px;
+}
+
+nav h2 {
+	color: rgb(49, 114, 236);
+	float: left;
+	margin-left: 30px;
+	margin-right: 505px;
+	font-size: 32px;
+}
+
+nav a {
+	float: left;
+	margin-right: 35px;
+	color: #0b2e3a;
+	text-decoration: none;
+}
+
+#banner {
+	background-color: #8ecae6;
+	width: 1000px;
+	height: 420px;
+}
+
+#banner h1 {
+	padding-top: 100px;
+	margin-left: 50px;
+	color: white;
+	font-size: 56px;
+}
+
+#banner p {
+	margin-top: 15px;
+	margin-left: 50px;
+	color: #0b2e3a;
+	font-size: 22px;
+}
+
+#banner button {
+	margin-top: 20px;
+	margin-left: 50px;
+	width: 150px;
+	height: 40px;
+	background-color: #f77f00;
+	color: white;
+	border: #f77f00;
+	border-radius: 5px;
+}
+
+#turlar {
+	clear: both;
+	width: 1000px;
+	height: 460px;
+}
+
+#turlar h2 {
+	font-size: 32px;
+	color: #0b2e3a;
+	text-align: center;
+	padding-top: 30px;
+	margin-bottom: 30px;
+}
+
+.cards {
+	width: 220px;
+	height: 320px;
+	margin-left: 22.5px;
+	border: 1px solid #d5dde2;
+	float: left;
+}
+
+.cards .tur-yeri {
+	margin-top: 10px;
+	margin-left: 15px;
+	color: #0b2e3a;
+}
+
+.cards .tur-aciklama {
+	margin-top: 5px;
+	margin-left: 15px;
+	color: #c1c5c8;
+}
+
+.cards .tur-fiyat {
+	margin-top: 10px;
+	margin-left: 15px;
+	color: #f77f00;
+	font-size: 22px;
+}
+
+.cards button {
+	margin-top: 10px;
+	margin-left: 15px;
+	width: 188px;
+	height: 40px;
+	background-color: #1e5f74;
+	color: white;
+	font-size: 16px;
+	border: 1px solid white;
+}
+
+.cards .colors {
+	width: 219px;
+	height: 160px;
+}
+
+.cards #yellow {
+	background-color: #e9c46a;
+}
+
+.cards #yesil {
+	background-color: #2a9d8f;
+}
+
+.cards #mavi {
+	background-color: #457b9d;
+}
+
+.cards #kirmizi {
+	background-color: #e76f51;
+}
+
+#hakkimizda {
+	width: 1000px;
+	height: 260px;
+	background-color: #f1f5f9;
+}
+
+#hakkimizda h2 {
+	font-size: 32px;
+	color: #0b2e3a;
+	padding-top: 25px;
+}
+
+#hakkimizda aside {
+	margin-left: 30px;
+	width: 440px;
+	height: auto;
+	float: left;
+}
+
+#hakkimizda aside p {
+	margin-top: 15px;
+	text-align: justify;
+	line-height: 24px;
+	line-height: 1.5em;
+	font-size: 18px;
+}
+
+#hakkimizda figure {
+	margin-top: 40px;
+	margin-left: 100px;
+	width: 400px;
+	height: 180px;
+	float: left;
+}
+
+#hakkimizda figure img {
+	width: 400px;
+	height: 180px;
+}
+
+footer {
+	width: 1000px;
+	height: 220px;
+	background-color: #0b2e3a;
+	color: rgb(193, 197, 200);
+}
+
+footer h3 {
+	padding-top: 30px;
+	margin-bottom: 10px;
+	color: white;
+	font-size: 20px;
+}
+
+footer a {
+	display: flex;
+	text-decoration: none;
+	color: rgb(193, 197, 200);
+	margin-bottom: 10px;
+}
+
+footer address {
+	margin-bottom: 10px;
+}
+
+footer .column {
+	margin-left: 40px;
+	width: 280px;
+	height: auto;
+	float: left;
+}
+
+.alt-serit {
+	background-color: #071d25;
+	width: 1000px;
+	height: 50px;
+	line-height: 50px;
+	text-align: center;
+	color: rgb(193, 197, 200);
+}
