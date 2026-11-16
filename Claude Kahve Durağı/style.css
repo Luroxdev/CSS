@@ -1,0 +1,515 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	width: 1000px;
+	margin: 0 auto;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+#ust-serit {
+	width: 1000px;
+	height: 40px;
+	background-color: #3b2417;
+	color: white;
+	font-size: 14px;
+	text-align: center;
+	line-height: 40px;
+	padding: 0 40px;
+}
+
+#serit1 {
+	float: left;
+}
+
+#serit2 {
+	text-align: right;
+}
+
+nav {
+	display: flex;
+	width: 1000px;
+	height: 80px;
+	padding: 0 40px;
+	align-items: center;
+	border-bottom: 1px solid #eadfd3;
+}
+
+nav p {
+	font-size: 28px;
+	float: left;
+	margin-right: 160px;
+	color: #6f4e37;
+}
+
+nav a {
+	margin-right: 25px;
+	font-size: 16px;
+	text-decoration: none;
+	color: #6f4e37;
+}
+
+nav .baglantilar:hover {
+	color: #d98324;
+}
+
+nav button {
+	width: 140px;
+	height: 40px;
+	background-color: #d98324;
+	text-align: center;
+	border-radius: 5px;
+	border: #d98324;
+}
+
+nav button a {
+	color: white;
+	margin-left: 20px;
+	line-height: 40px;
+}
+
+#banner {
+	display: flex;
+	align-items: center;
+	width: 1000px;
+	height: 480px;
+	background-color: #a67c52;
+}
+
+#banner aside {
+	background-color: white;
+	margin-left: 50px;
+	padding: 25px;
+	width: 380px;
+	height: 260px;
+	opacity: 0.95;
+	border-radius: 10px;
+}
+
+#banner #baslik {
+	font-size: 32px;
+	margin-bottom: 12px;
+	color: #3b2417;
+}
+
+#banner #aciklama {
+	font-size: 16px;
+	line-height: 1.5em;
+	margin-bottom: 20px;
+	color: #3b2417;
+}
+
+#banner button {
+	width: 140px;
+	height: 40px;
+	margin-right: 10px;
+	border: 2px solid orange;
+}
+
+#banner #banner-menu {
+	background-color: orange;
+	color: white;
+}
+
+#banner #banner-rezervasyon {
+	background-color: white;
+	color: orange;
+}
+
+#ozellikler {
+	width: 1000px;
+	height: 210px;
+	display: flex;
+	align-items: center;
+	background-color: #faf5ef;
+}
+
+#ozellikler .ozellik {
+	margin: 0 auto;
+	gap: 30px;
+	width: 280px;
+	height: 150px;
+	background-color: #fff;
+	border-radius: 12px;
+	padding: 18px;
+	text-align: center;
+}
+
+#ozellikler .ikon {
+	background-color: #d98324;
+	margin: 0 auto 8px;
+	width: 50px;
+	height: 50px;
+	border-radius: 50%;
+	line-height: 50px;
+	color: white;
+}
+
+#ozellikler h3 {
+	font-size: 18px;
+	color: #6f4e37;
+	margin-bottom: 10px;
+}
+
+#ozellikler p {
+	font-size: 14px;
+	color: #6f4e37;
+}
+
+#menu {
+	width: 1000px;
+	height: 540px;
+	padding: 45px 50px;
+}
+
+#menu #menu-baslik {
+	text-align: center;
+	font-size: 32px;
+	margin-bottom: 8px;
+	color: #6f4e37;
+}
+
+#menu #menu-bilgi {
+	text-align: center;
+	color: #a67c52;
+	font-size: 16px;
+	margin-bottom: 30px;
+}
+
+#container {
+	display: flex;
+	align-items: center;
+	width: 900px;
+	height: 330px;
+}
+
+#card {
+	width: 210px;
+	height: 330px;
+	background-color: #faf5ef;
+	border: 1px;
+	border-radius: 12px;
+	overflow: hidden;
+	margin-right: 20px;
+}
+
+#card .foto {
+	border-bottom: 1px solid #a67c52;
+	width: 100%;
+	height: 150px;
+	background-color: #a67c52;
+}
+
+#card .urun {
+	font-size: 18px;
+	padding: 12px 15px;
+	color: #3b2417;
+}
+
+#card .menu-aciklama {
+	font-size: 14px;
+	padding-left: 12px;
+	color: #a67c52;
+}
+
+#card .price {
+	font-size: 22px;
+	font-weight: bold;
+	color: orange;
+	margin-top: 8px;
+	padding-left: 15px;
+}
+
+#card button {
+	margin-top: 10px;
+	width: 178px;
+	height: 36px;
+	background-color: #6f4e37;
+	padding: 12px 15px;
+	border: #3b2417;
+	margin-left: 15px;
+	border-radius: 5px;
+	color: white;
+}
+
+.card1 {
+	box-shadow: 0 5px 0 0 #d98324;
+}
+
+.card2 {
+	box-shadow: 0 5px 0 0 #6f4e37;
+}
+
+.card3 {
+	box-shadow: 0 5px 0 0 #c1440e;
+}
+
+.card4 {
+	box-shadow: 0 5px 0 0 #8a9a5b;
+}
+
+#hikayemiz {
+	width: 1000px;
+	height: 380px;
+	background-color: #f1e7dc;
+	display: flex;
+	align-items: center;
+	gap: 30px;
+	padding: 0 50px;
+}
+
+#hikayemiz figure {
+	width: 440px;
+	height: 280px;
+	border-radius: 15px;
+	background-color: #a67c52;
+}
+
+#hikayemiz #yazi {
+	width: 420px;
+	height: 280px;
+	padding-top: 15px;
+}
+
+#yazi h2 {
+	font-size: 30px;
+	margin-bottom: 12px;
+	color: #6f4e37;
+}
+
+#yazi p {
+	font-size: 16px;
+	line-height: 1.5em;
+	text-align: justify;
+	margin-bottom: 14px;
+	color: #6f4e37;
+}
+
+#yazi ul {
+	list-style: none;
+}
+
+#yazi span {
+	color: orange;
+	margin-right: 10px;
+}
+
+#yazi li {
+	display: flex;
+	gap: 20px;
+	padding: 14px 0;
+	border-bottom: 1px solid #d9c7b4;
+}
+
+#rakamlar {
+	width: 1000px;
+	height: 140px;
+	display: flex;
+	align-items: center;
+	background-color: #3b2417;
+}
+
+.rakam {
+	width: 250px;
+	height: 140px;
+	text-align: center;
+}
+
+.rakam .rakam-baslik {
+	font-size: 40px;
+	font-weight: bold;
+	color: orange;
+	padding-top: 30px;
+}
+
+.rakam .rakam-bilgi {
+	font-size: 16px;
+	color: white;
+	margin-top: 6px;
+}
+
+#yorumlar {
+	width: 1000px;
+	height: 360px;
+	background-color: white;
+	padding: 45px 50px;
+}
+
+#yorumlar h2 {
+	text-align: center;
+	color: #3b2417;
+	font-size: 32px;
+	margin-bottom: 30px;
+}
+
+#container-yorumlar {
+	display: flex;
+	align-items: center;
+	gap: 30px;
+	width: 900px;
+	height: 200px;
+}
+
+.yorum {
+	width: 280px;
+	height: 200px;
+	background-color: #faf5ef;
+	border-radius: 10px;
+	border-left: 5px;
+	padding: 20px;
+	border-left: 5px solid #d98324;
+	box-shadow: 0 2px 8px rgba(0, 0, 0 0.15);
+}
+
+.yorum .musteri-yorum {
+	font-size: 15px;
+	font-style: italic;
+	line-height: 1.5em;
+}
+
+.yorum .musteri-ad {
+	font-size: 16px;
+	font-weight: bold;
+	margin-top: 14px;
+	color: #3b2417;
+}
+
+.yorum .musteri-meslek {
+	font-size: 13px;
+	color: grey;
+}
+
+#galeri {
+	width: 1000px;
+	height: 200px;
+	display: flex;
+	align-items: center;
+}
+
+.g {
+	width: 250px;
+	height: 200px;
+	text-align: center;
+	line-height: 200px;
+	color: white;
+}
+
+#g1 {
+	background-color: #b08968;
+}
+#g2 {
+	background-color: #7f5539;
+}
+#g3 {
+	background-color: #9c6644;
+}
+#g4 {
+	background-color: #a68a64;
+}
+
+#rezervasyon {
+	display: flex;
+	align-items: center;
+	width: 1000px;
+	height: 440px;
+	background-color: #6f4e37;
+	gap: 120px;
+	padding: 0 50px;
+}
+
+#sol {
+	width: 400px;
+	height: 251px;
+	color: white;
+}
+
+#sol h2 {
+	font-size: 32px;
+	margin-bottom: 14px;
+}
+
+#sol #rezervasyon-aciklama {
+	font-size: 16px;
+	margin-bottom: 20px;
+}
+
+.rezervasyon-bilgi {
+	font-weight: bold;
+	margin-bottom: 8px;
+}
+
+form {
+	width: 380px;
+	height: 350px;
+	background-color: white;
+	border-radius: 12px;
+	padding: 24px;
+}
+
+form h3 {
+	color: #3b2417;
+	font-size: 22px;
+	margin-bottom: 14px;
+}
+
+form input {
+	width: 332px;
+	height: 40px;
+	border: 1px solid #d9cbbd;
+	border-radius: 6px;
+	padding: 0 12px;
+	display: block;
+	margin-bottom: 12px;
+}
+
+form button {
+	width: 332px;
+	height: 44px;
+	background-color: orange;
+	color: white;
+	border-radius: 6px;
+	border: 1px solid orange;
+}
+
+footer #iletisim {
+	width: 1000px;
+	height: 220px;
+	background-color: #2a1a10;
+}
+
+#iletisim .iletisim-card {
+	width: 280px;
+	height: auto;
+	float: left;
+	margin-left: 40px;
+}
+
+.iletisim-card h3 {
+	font-size: 20px;
+	color: white;
+	padding-top: 30px;
+	margin-bottom: 15px;
+}
+
+.iletisim-card .iletisim-p {
+	color: #b08968;
+	margin-bottom: 10px;
+}
+
+.iletisim-card a {
+	display: flex;
+	text-decoration: none;
+}
+
+#alt-serit {
+	width: 1000px;
+	height: 50px;
+	background-color: #1c110a;
+	text-align: center;
+	line-height: 50px;
+	color: #a67c52;
+	font-size: 14px;
+}
